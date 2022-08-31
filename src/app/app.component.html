@@ -3,6 +3,15 @@
     [src]="img.url"
     [ngClass]="img.id"
   />
+  <ng-container *ngIf="img.id == 'class-1'">
+    <div style="height:100px;border:1px solid;padding:10px">
+      For the tutorial visit <br />
+      <br />
+      <a
+        href="https://www.angularjswiki.com/angular/use-ngoptimizedimage-to-improve-image-loading-performance-in-angular/"
+        >https://www.angularjswiki.com/angular/use-ngoptimizedimage-to-improve-image-loading-performance-in-angular/</a
+      >
+    </div>
   <p>{{randomContent}}</p>
 
 </ng-container>
